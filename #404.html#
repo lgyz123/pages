@@ -17,9 +17,13 @@ layout: default
   }
 </style>
 
-<img src="giphy.gif"  width="510" height="510" style="width:50%;">
-
-
+<img src="giphy.gif"  width="700" height="700" class="center">
+.center {
+display: block;
+margin-left: auto;
+margin-right: auto;
+width: 50%;
+}
 <div class="container">
   <h1>404</h1>
 
